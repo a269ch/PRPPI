@@ -1,0 +1,35 @@
+SIDES:
+  SIDE_1: A
+  SIDE_2: B
+
+CUTOFFS:
+  GROUPS:
+    SIDE1:
+      7: [A, C, G, P, S, T]
+      6: [D, N]
+      5: [E, H, I, L, M, Q, V]
+      4: [F, K, R, W, Y]
+
+    SIDE2:
+      7: [ A, C, G, P, S, T ]
+      6: [ D, N ]
+      5: [ E, H, I, L, M, Q, V ]
+      4: [ F, K, R, W, Y ]
+
+RESIDUES_SIDE1:
+  FIRST: A4
+  LAST: A76
+
+RESIDUES_SIDE2:
+  FIRST: B3615
+  LAST: B3638
+
+OSPREY:
+  CPU: 4
+  RAM: 4096
+  GPU: 1
+  EPSILON: 0.01
+  MUTATIONS: [ALA, VAL, ILE, LEU, MET, PHE, TRP, GLU, TYR, ASP, ASN, GLN]
+
+PATH:
+  PATH_TO_RESULT: ./
